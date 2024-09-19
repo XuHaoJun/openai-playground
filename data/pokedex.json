@@ -1,0 +1,4055 @@
+[
+  {
+    "id": 1,
+    "order": 1,
+    "name": "bulbasaur",
+    "height": 7,
+    "weight": 69,
+    "pokemon_v2_pokemonspecy": {
+      "id": 1,
+      "name": "bulbasaur",
+      "evolution_chain_id": 1,
+      "pokemon_v2_pokemonspeciesnames": [
+        {
+          "id": 1,
+          "language_id": 1,
+          "name": "フシギダネ"
+        },
+        {
+          "id": 2,
+          "language_id": 2,
+          "name": "Fushigidane"
+        },
+        {
+          "id": 3,
+          "language_id": 3,
+          "name": "이상해씨"
+        },
+        {
+          "id": 4,
+          "language_id": 4,
+          "name": "妙蛙種子"
+        },
+        {
+          "id": 5,
+          "language_id": 5,
+          "name": "Bulbizarre"
+        },
+        {
+          "id": 6,
+          "language_id": 6,
+          "name": "Bisasam"
+        },
+        {
+          "id": 7,
+          "language_id": 7,
+          "name": "Bulbasaur"
+        },
+        {
+          "id": 8,
+          "language_id": 8,
+          "name": "Bulbasaur"
+        },
+        {
+          "id": 9,
+          "language_id": 9,
+          "name": "Bulbasaur"
+        },
+        {
+          "id": 10,
+          "language_id": 11,
+          "name": "フシギダネ"
+        },
+        {
+          "id": 11,
+          "language_id": 12,
+          "name": "妙蛙种子"
+        }
+      ]
+    },
+    "pokemon_v2_pokemonforms": [
+      {
+        "id": 1,
+        "is_battle_only": false,
+        "is_default": true,
+        "is_mega": false,
+        "form_name": "",
+        "pokemon_v2_pokemonformnames": []
+      }
+    ],
+    "hp": 45,
+    "attack": 49,
+    "defense": 49,
+    "spAtk": 65,
+    "spDef": 65,
+    "speed": 45,
+    "total": 318,
+    "nameDisplay": "Bulbasaur",
+    "defaultFormNameDisplay": "",
+    "types": [
+      {
+        "id": 4,
+        "name": "poison",
+        "pokemon_v2_typenames": [
+          {
+            "id": 31,
+            "name": "どく",
+            "language_id": 1
+          },
+          {
+            "id": 32,
+            "name": "독",
+            "language_id": 3
+          },
+          {
+            "id": 33,
+            "name": "毒",
+            "language_id": 4
+          },
+          {
+            "id": 34,
+            "name": "Poison",
+            "language_id": 5
+          },
+          {
+            "id": 35,
+            "name": "Gift",
+            "language_id": 6
+          },
+          {
+            "id": 36,
+            "name": "Veneno",
+            "language_id": 7
+          },
+          {
+            "id": 37,
+            "name": "Veleno",
+            "language_id": 8
+          },
+          {
+            "id": 38,
+            "name": "Poison",
+            "language_id": 9
+          },
+          {
+            "id": 39,
+            "name": "どく",
+            "language_id": 11
+          },
+          {
+            "id": 40,
+            "name": "毒",
+            "language_id": 12
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "grass",
+        "pokemon_v2_typenames": [
+          {
+            "id": 111,
+            "name": "くさ",
+            "language_id": 1
+          },
+          {
+            "id": 112,
+            "name": "풀",
+            "language_id": 3
+          },
+          {
+            "id": 113,
+            "name": "草",
+            "language_id": 4
+          },
+          {
+            "id": 114,
+            "name": "Plante",
+            "language_id": 5
+          },
+          {
+            "id": 115,
+            "name": "Pflanze",
+            "language_id": 6
+          },
+          {
+            "id": 116,
+            "name": "Planta",
+            "language_id": 7
+          },
+          {
+            "id": 117,
+            "name": "Erba",
+            "language_id": 8
+          },
+          {
+            "id": 118,
+            "name": "Grass",
+            "language_id": 9
+          },
+          {
+            "id": 119,
+            "name": "くさ",
+            "language_id": 11
+          },
+          {
+            "id": 120,
+            "name": "草",
+            "language_id": 12
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "is_hidden": false,
+        "slot": 1,
+        "ability_id": 65,
+        "nameDisplay": "Overgrow",
+        "abilityFlavorTextDisplay": "Powers up Grass-type moves when the Pokémon's HP is low."
+      },
+      {
+        "is_hidden": true,
+        "slot": 3,
+        "ability_id": 34,
+        "nameDisplay": "Chlorophyll",
+        "abilityFlavorTextDisplay": "Boosts the Pokémon's Speed stat in harsh sunlight."
+      }
+    ],
+    "evolutionchain": {
+      "id": 1,
+      "pokemon_v2_pokemonspecies": [
+        {
+          "id": 1,
+          "evolves_from_species_id": null
+        },
+        {
+          "id": 2,
+          "evolves_from_species_id": 1
+        },
+        {
+          "id": 3,
+          "evolves_from_species_id": 2
+        }
+      ]
+    },
+    "evolutionTree": {
+      "data": {
+        "id": 1,
+        "evolves_from_species_id": null
+      },
+      "children": [
+        {
+          "data": {
+            "id": 2,
+            "evolves_from_species_id": 1
+          },
+          "parent": "[Circular]",
+          "children": [
+            {
+              "data": {
+                "id": 3,
+                "evolves_from_species_id": 2
+              },
+              "parent": "[Circular]"
+            }
+          ]
+        }
+      ]
+    },
+    "moves": [
+      {
+        "id": 1015,
+        "move_id": 14,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Swords Dance",
+        "flavorTextDisplay": "A frenetic dance to uplift the fighting spirit.\nThis sharply raises the user’s Attack stat.",
+        "move": {
+          "id": 14,
+          "name": "swords-dance",
+          "accuracy": null,
+          "power": null,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 998,
+        "move_id": 22,
+        "version_group_id": 25,
+        "level": 3,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Vine Whip",
+        "flavorTextDisplay": "The target is struck with slender, whiplike vines to\ninflict damage.",
+        "move": {
+          "id": 22,
+          "name": "vine-whip",
+          "accuracy": 100,
+          "power": 45,
+          "pp": 25,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 996,
+        "move_id": 33,
+        "version_group_id": 25,
+        "level": 1,
+        "order": 1,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Tackle",
+        "flavorTextDisplay": "A physical attack in which the user charges and\nslams into the target with its whole body.",
+        "move": {
+          "id": 33,
+          "name": "tackle",
+          "accuracy": 100,
+          "power": 40,
+          "pp": 35,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1016,
+        "move_id": 34,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Body Slam",
+        "flavorTextDisplay": "The user drops onto the target with its full body\nweight. This may also leave the target with paralysis.",
+        "move": {
+          "id": 34,
+          "name": "body-slam",
+          "accuracy": 100,
+          "power": 85,
+          "pp": 15,
+          "move_effect_chance": 30,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1005,
+        "move_id": 36,
+        "version_group_id": 25,
+        "level": 21,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Take Down",
+        "flavorTextDisplay": "A reckless, full-body charge attack for slamming into\nthe target. This also damages the user a little.",
+        "move": {
+          "id": 36,
+          "name": "take-down",
+          "accuracy": 85,
+          "power": 90,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1017,
+        "move_id": 36,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Take Down",
+        "flavorTextDisplay": "A reckless, full-body charge attack for slamming into\nthe target. This also damages the user a little.",
+        "move": {
+          "id": 36,
+          "name": "take-down",
+          "accuracy": 85,
+          "power": 90,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1018,
+        "move_id": 38,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Double-Edge",
+        "flavorTextDisplay": "A reckless, life-risking tackle in which the user rushes\nthe target. This also damages the user quite a lot.",
+        "move": {
+          "id": 38,
+          "name": "double-edge",
+          "accuracy": 100,
+          "power": 120,
+          "pp": 15,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 997,
+        "move_id": 45,
+        "version_group_id": 25,
+        "level": 1,
+        "order": 2,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Growl",
+        "flavorTextDisplay": "The user growls in an endearing way, making\nopposing Pokémon less wary. This lowers their\nAttack stats.",
+        "move": {
+          "id": 45,
+          "name": "growl",
+          "accuracy": 100,
+          "power": null,
+          "pp": 40,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1000,
+        "move_id": 73,
+        "version_group_id": 25,
+        "level": 9,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Leech Seed",
+        "flavorTextDisplay": "A seed is planted on the target. It steals some HP\nfrom the target every turn.",
+        "move": {
+          "id": 73,
+          "name": "leech-seed",
+          "accuracy": 90,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 999,
+        "move_id": 74,
+        "version_group_id": 25,
+        "level": 6,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Growth",
+        "flavorTextDisplay": "The user’s body grows all at once, raising the\nAttack and Sp. Atk stats.",
+        "move": {
+          "id": 74,
+          "name": "growth",
+          "accuracy": null,
+          "power": null,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1001,
+        "move_id": 75,
+        "version_group_id": 25,
+        "level": 12,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Razor Leaf",
+        "flavorTextDisplay": "Sharp-edged leaves are launched to slash at opposing\nPokémon. Critical hits land more easily.",
+        "move": {
+          "id": 75,
+          "name": "razor-leaf",
+          "accuracy": 95,
+          "power": 55,
+          "pp": 25,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1010,
+        "move_id": 76,
+        "version_group_id": 25,
+        "level": 36,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Solar Beam",
+        "flavorTextDisplay": "In this two-turn attack, the user gathers light, then\nblasts a bundled beam on the next turn.",
+        "move": {
+          "id": 76,
+          "name": "solar-beam",
+          "accuracy": 100,
+          "power": 120,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1019,
+        "move_id": 76,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Solar Beam",
+        "flavorTextDisplay": "In this two-turn attack, the user gathers light, then\nblasts a bundled beam on the next turn.",
+        "move": {
+          "id": 76,
+          "name": "solar-beam",
+          "accuracy": 100,
+          "power": 120,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1002,
+        "move_id": 77,
+        "version_group_id": 25,
+        "level": 15,
+        "order": 1,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Poison Powder",
+        "flavorTextDisplay": "The user scatters a cloud of poisonous dust that\npoisons the target.",
+        "move": {
+          "id": 77,
+          "name": "poison-powder",
+          "accuracy": 75,
+          "power": null,
+          "pp": 35,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 4,
+            "name": "poison"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1003,
+        "move_id": 79,
+        "version_group_id": 25,
+        "level": 15,
+        "order": 2,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Sleep Powder",
+        "flavorTextDisplay": "The user scatters a big cloud of sleep-inducing dust\naround the target.",
+        "move": {
+          "id": 79,
+          "name": "sleep-powder",
+          "accuracy": 75,
+          "power": null,
+          "pp": 15,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1011,
+        "move_id": 80,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 2,
+          "name": "egg"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Petal Dance",
+        "flavorTextDisplay": "The user attacks the target by scattering petals for\ntwo to three turns. The user then becomes confused.",
+        "move": {
+          "id": 80,
+          "name": "petal-dance",
+          "accuracy": 100,
+          "power": 120,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1020,
+        "move_id": 92,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Toxic",
+        "flavorTextDisplay": "A move that leaves the target badly poisoned.\nIts poison damage worsens every turn.",
+        "move": {
+          "id": 92,
+          "name": "toxic",
+          "accuracy": 90,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 4,
+            "name": "poison"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1012,
+        "move_id": 92,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 2,
+          "name": "egg"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Toxic",
+        "flavorTextDisplay": "A move that leaves the target badly poisoned.\nIts poison damage worsens every turn.",
+        "move": {
+          "id": 92,
+          "name": "toxic",
+          "accuracy": 90,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 4,
+            "name": "poison"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1021,
+        "move_id": 156,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Rest",
+        "flavorTextDisplay": "The user goes to sleep for two turns. This fully\nrestores the user’s HP and heals any\nstatus conditions.",
+        "move": {
+          "id": 156,
+          "name": "rest",
+          "accuracy": null,
+          "power": null,
+          "pp": 5,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 14,
+            "name": "psychic"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1022,
+        "move_id": 164,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Substitute",
+        "flavorTextDisplay": "The user creates a substitute for itself using some of\nits HP. The substitute serves as the user’s decoy.",
+        "move": {
+          "id": 164,
+          "name": "substitute",
+          "accuracy": null,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1013,
+        "move_id": 174,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 2,
+          "name": "egg"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Curse",
+        "flavorTextDisplay": "A move that works differently for the Ghost type\nthan for all other types.",
+        "move": {
+          "id": 174,
+          "name": "curse",
+          "accuracy": null,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 8,
+            "name": "ghost"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1023,
+        "move_id": 174,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Curse",
+        "flavorTextDisplay": "A move that works differently for the Ghost type\nthan for all other types.",
+        "move": {
+          "id": 174,
+          "name": "curse",
+          "accuracy": null,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 8,
+            "name": "ghost"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1024,
+        "move_id": 182,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Protect",
+        "flavorTextDisplay": "This move enables the user to protect itself from\nall attacks. Its chance of failing rises if it is used\nin succession.",
+        "move": {
+          "id": 182,
+          "name": "protect",
+          "accuracy": null,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1025,
+        "move_id": 188,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Sludge Bomb",
+        "flavorTextDisplay": "Unsanitary sludge is hurled at the target. This may\nalso poison the target.",
+        "move": {
+          "id": 188,
+          "name": "sludge-bomb",
+          "accuracy": 100,
+          "power": 90,
+          "pp": 10,
+          "move_effect_chance": 30,
+          "pokemon_v2_type": {
+            "id": 4,
+            "name": "poison"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1026,
+        "move_id": 202,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Giga Drain",
+        "flavorTextDisplay": "A nutrient-draining attack. The user’s HP is restored\nby half the damage taken by the target.",
+        "move": {
+          "id": 202,
+          "name": "giga-drain",
+          "accuracy": 100,
+          "power": 75,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1027,
+        "move_id": 203,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Endure",
+        "flavorTextDisplay": "The user endures any attack with at least 1 HP.\nIts chance of failing rises if it is used in succession.",
+        "move": {
+          "id": 203,
+          "name": "endure",
+          "accuracy": null,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1028,
+        "move_id": 204,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Charm",
+        "flavorTextDisplay": "The user gazes at the target rather charmingly,\nmaking it less wary. This harshly lowers the target’s\nAttack stat.",
+        "move": {
+          "id": 204,
+          "name": "charm",
+          "accuracy": 100,
+          "power": null,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 18,
+            "name": "fairy"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1029,
+        "move_id": 206,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "False Swipe",
+        "flavorTextDisplay": "A restrained attack that prevents the target from\nfainting. The target is left with at least 1 HP.",
+        "move": {
+          "id": 206,
+          "name": "false-swipe",
+          "accuracy": 100,
+          "power": 40,
+          "pp": 40,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1030,
+        "move_id": 214,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Sleep Talk",
+        "flavorTextDisplay": "While it is asleep, the user randomly uses one of the\nmoves it knows.",
+        "move": {
+          "id": 214,
+          "name": "sleep-talk",
+          "accuracy": null,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1006,
+        "move_id": 230,
+        "version_group_id": 25,
+        "level": 24,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Sweet Scent",
+        "flavorTextDisplay": "A sweet scent that harshly lowers opposing\nPokémon’s evasiveness.",
+        "move": {
+          "id": 230,
+          "name": "sweet-scent",
+          "accuracy": 100,
+          "power": null,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1007,
+        "move_id": 235,
+        "version_group_id": 25,
+        "level": 27,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Synthesis",
+        "flavorTextDisplay": "The user restores its own HP. The amount of HP\nregained varies with the weather.",
+        "move": {
+          "id": 235,
+          "name": "synthesis",
+          "accuracy": null,
+          "power": null,
+          "pp": 5,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1031,
+        "move_id": 241,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Sunny Day",
+        "flavorTextDisplay": "The user intensifies the sun for five turns, powering\nup Fire-type moves. It lowers the power of\nWater-type moves.",
+        "move": {
+          "id": 241,
+          "name": "sunny-day",
+          "accuracy": null,
+          "power": null,
+          "pp": 5,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 10,
+            "name": "fire"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1032,
+        "move_id": 263,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Facade",
+        "flavorTextDisplay": "This attack move doubles its power if the user is\npoisoned, burned, or paralyzed.",
+        "move": {
+          "id": 263,
+          "name": "facade",
+          "accuracy": 100,
+          "power": 70,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1033,
+        "move_id": 270,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Helping Hand",
+        "flavorTextDisplay": "The user assists an ally by boosting the power of\nthat ally’s attack.",
+        "move": {
+          "id": 270,
+          "name": "helping-hand",
+          "accuracy": null,
+          "power": null,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1014,
+        "move_id": 275,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 2,
+          "name": "egg"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Ingrain",
+        "flavorTextDisplay": "The user lays roots that restore its HP on every turn.\nBecause it’s rooted, it can’t switch out.",
+        "move": {
+          "id": 275,
+          "name": "ingrain",
+          "accuracy": null,
+          "power": null,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1034,
+        "move_id": 282,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Knock Off",
+        "flavorTextDisplay": "The user slaps down the target’s held item, and that\nitem can’t be used in that battle. The move does\nmore damage if the target has a held item.",
+        "move": {
+          "id": 282,
+          "name": "knock-off",
+          "accuracy": 100,
+          "power": 65,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 17,
+            "name": "dark"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1035,
+        "move_id": 311,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Weather Ball",
+        "flavorTextDisplay": "This attack move varies in power and type\ndepending on the weather.",
+        "move": {
+          "id": 311,
+          "name": "weather-ball",
+          "accuracy": 100,
+          "power": 50,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1036,
+        "move_id": 331,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Bullet Seed",
+        "flavorTextDisplay": "The user forcefully shoots seeds at the target two\nto five times in a row.",
+        "move": {
+          "id": 331,
+          "name": "bullet-seed",
+          "accuracy": 100,
+          "power": 25,
+          "pp": 30,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1037,
+        "move_id": 345,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Magical Leaf",
+        "flavorTextDisplay": "The user scatters curious leaves that chase the\ntarget. This attack never misses.",
+        "move": {
+          "id": 345,
+          "name": "magical-leaf",
+          "accuracy": null,
+          "power": 60,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1008,
+        "move_id": 388,
+        "version_group_id": 25,
+        "level": 30,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Worry Seed",
+        "flavorTextDisplay": "A seed that causes worry is planted on the target.\nIt prevents sleep by making the target’s\nAbility Insomnia.",
+        "move": {
+          "id": 388,
+          "name": "worry-seed",
+          "accuracy": 100,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1004,
+        "move_id": 402,
+        "version_group_id": 25,
+        "level": 18,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Seed Bomb",
+        "flavorTextDisplay": "The user slams a barrage of hard-shelled seeds\ndown on the target from above.",
+        "move": {
+          "id": 402,
+          "name": "seed-bomb",
+          "accuracy": 100,
+          "power": 80,
+          "pp": 15,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1038,
+        "move_id": 402,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Seed Bomb",
+        "flavorTextDisplay": "The user slams a barrage of hard-shelled seeds\ndown on the target from above.",
+        "move": {
+          "id": 402,
+          "name": "seed-bomb",
+          "accuracy": 100,
+          "power": 80,
+          "pp": 15,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1039,
+        "move_id": 412,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Energy Ball",
+        "flavorTextDisplay": "The user draws power from nature and fires it at the\ntarget. This may also lower the target’s Sp. Def stat.",
+        "move": {
+          "id": 412,
+          "name": "energy-ball",
+          "accuracy": 100,
+          "power": 90,
+          "pp": 10,
+          "move_effect_chance": 10,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1040,
+        "move_id": 437,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Leaf Storm",
+        "flavorTextDisplay": "The user whips up a storm of leaves around the\ntarget. The attack’s recoil harshly lowers the user’s\nSp. Atk stat.",
+        "move": {
+          "id": 437,
+          "name": "leaf-storm",
+          "accuracy": 90,
+          "power": 130,
+          "pp": 5,
+          "move_effect_chance": 100,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1009,
+        "move_id": 438,
+        "version_group_id": 25,
+        "level": 33,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Power Whip",
+        "flavorTextDisplay": "The user violently whirls its vines, tentacles, or the\nlike to harshly lash the target.",
+        "move": {
+          "id": 438,
+          "name": "power-whip",
+          "accuracy": 85,
+          "power": 120,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1041,
+        "move_id": 447,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Grass Knot",
+        "flavorTextDisplay": "The user snares the target with grass and trips it.\nThe heavier the target, the greater the\nmove’s power.",
+        "move": {
+          "id": 447,
+          "name": "grass-knot",
+          "accuracy": 100,
+          "power": null,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1042,
+        "move_id": 474,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Venoshock",
+        "flavorTextDisplay": "The user drenches the target in a special poisonous\nliquid. This move’s power is doubled if the target\nis poisoned.",
+        "move": {
+          "id": 474,
+          "name": "venoshock",
+          "accuracy": 100,
+          "power": 65,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 4,
+            "name": "poison"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1043,
+        "move_id": 491,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Acid Spray",
+        "flavorTextDisplay": "The user spits fluid that works to melt the target.\nThis harshly lowers the target’s Sp. Def stat.",
+        "move": {
+          "id": 491,
+          "name": "acid-spray",
+          "accuracy": 100,
+          "power": 40,
+          "pp": 20,
+          "move_effect_chance": 100,
+          "pokemon_v2_type": {
+            "id": 4,
+            "name": "poison"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1044,
+        "move_id": 520,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Grass Pledge",
+        "flavorTextDisplay": "A column of grass hits the target. When used with\nits water equivalent, its power increases and a vast\nswamp appears.",
+        "move": {
+          "id": 520,
+          "name": "grass-pledge",
+          "accuracy": 100,
+          "power": 80,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1045,
+        "move_id": 580,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Grassy Terrain",
+        "flavorTextDisplay": "The user turns the ground to grass for five turns.\nThis restores the HP of Pokémon on the ground a\nlittle every turn and powers up Grass-type moves.",
+        "move": {
+          "id": 580,
+          "name": "grassy-terrain",
+          "accuracy": null,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1046,
+        "move_id": 803,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Grassy Glide",
+        "flavorTextDisplay": "Gliding on the ground, the user attacks the target.\nThis move always goes first on Grassy Terrain.",
+        "move": {
+          "id": 803,
+          "name": "grassy-glide",
+          "accuracy": 100,
+          "power": 55,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1047,
+        "move_id": 851,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Tera Blast",
+        "flavorTextDisplay": "pkm.moveFlavorTexts.851",
+        "move": {
+          "id": 851,
+          "name": "tera-blast",
+          "accuracy": 100,
+          "power": 80,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1048,
+        "move_id": 885,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Trailblaze",
+        "flavorTextDisplay": "pkm.moveFlavorTexts.885",
+        "move": {
+          "id": 885,
+          "name": "trailblaze",
+          "accuracy": 100,
+          "power": 50,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "order": 2,
+    "name": "ivysaur",
+    "height": 10,
+    "weight": 130,
+    "pokemon_v2_pokemonspecy": {
+      "id": 2,
+      "name": "ivysaur",
+      "evolution_chain_id": 1,
+      "pokemon_v2_pokemonspeciesnames": [
+        {
+          "id": 12,
+          "language_id": 1,
+          "name": "フシギソウ"
+        },
+        {
+          "id": 13,
+          "language_id": 2,
+          "name": "Fushigisou"
+        },
+        {
+          "id": 14,
+          "language_id": 3,
+          "name": "이상해풀"
+        },
+        {
+          "id": 15,
+          "language_id": 4,
+          "name": "妙蛙草"
+        },
+        {
+          "id": 16,
+          "language_id": 5,
+          "name": "Herbizarre"
+        },
+        {
+          "id": 17,
+          "language_id": 6,
+          "name": "Bisaknosp"
+        },
+        {
+          "id": 18,
+          "language_id": 7,
+          "name": "Ivysaur"
+        },
+        {
+          "id": 19,
+          "language_id": 8,
+          "name": "Ivysaur"
+        },
+        {
+          "id": 20,
+          "language_id": 9,
+          "name": "Ivysaur"
+        },
+        {
+          "id": 21,
+          "language_id": 11,
+          "name": "フシギソウ"
+        },
+        {
+          "id": 22,
+          "language_id": 12,
+          "name": "妙蛙草"
+        }
+      ]
+    },
+    "pokemon_v2_pokemonforms": [
+      {
+        "id": 2,
+        "is_battle_only": false,
+        "is_default": true,
+        "is_mega": false,
+        "form_name": "",
+        "pokemon_v2_pokemonformnames": []
+      }
+    ],
+    "hp": 60,
+    "attack": 62,
+    "defense": 63,
+    "spAtk": 80,
+    "spDef": 80,
+    "speed": 60,
+    "total": 405,
+    "nameDisplay": "Ivysaur",
+    "defaultFormNameDisplay": "",
+    "types": [
+      {
+        "id": 4,
+        "name": "poison",
+        "pokemon_v2_typenames": [
+          {
+            "id": 31,
+            "name": "どく",
+            "language_id": 1
+          },
+          {
+            "id": 32,
+            "name": "독",
+            "language_id": 3
+          },
+          {
+            "id": 33,
+            "name": "毒",
+            "language_id": 4
+          },
+          {
+            "id": 34,
+            "name": "Poison",
+            "language_id": 5
+          },
+          {
+            "id": 35,
+            "name": "Gift",
+            "language_id": 6
+          },
+          {
+            "id": 36,
+            "name": "Veneno",
+            "language_id": 7
+          },
+          {
+            "id": 37,
+            "name": "Veleno",
+            "language_id": 8
+          },
+          {
+            "id": 38,
+            "name": "Poison",
+            "language_id": 9
+          },
+          {
+            "id": 39,
+            "name": "どく",
+            "language_id": 11
+          },
+          {
+            "id": 40,
+            "name": "毒",
+            "language_id": 12
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "grass",
+        "pokemon_v2_typenames": [
+          {
+            "id": 111,
+            "name": "くさ",
+            "language_id": 1
+          },
+          {
+            "id": 112,
+            "name": "풀",
+            "language_id": 3
+          },
+          {
+            "id": 113,
+            "name": "草",
+            "language_id": 4
+          },
+          {
+            "id": 114,
+            "name": "Plante",
+            "language_id": 5
+          },
+          {
+            "id": 115,
+            "name": "Pflanze",
+            "language_id": 6
+          },
+          {
+            "id": 116,
+            "name": "Planta",
+            "language_id": 7
+          },
+          {
+            "id": 117,
+            "name": "Erba",
+            "language_id": 8
+          },
+          {
+            "id": 118,
+            "name": "Grass",
+            "language_id": 9
+          },
+          {
+            "id": 119,
+            "name": "くさ",
+            "language_id": 11
+          },
+          {
+            "id": 120,
+            "name": "草",
+            "language_id": 12
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "is_hidden": false,
+        "slot": 1,
+        "ability_id": 65,
+        "nameDisplay": "Overgrow",
+        "abilityFlavorTextDisplay": "Powers up Grass-type moves when the Pokémon's HP is low."
+      },
+      {
+        "is_hidden": true,
+        "slot": 3,
+        "ability_id": 34,
+        "nameDisplay": "Chlorophyll",
+        "abilityFlavorTextDisplay": "Boosts the Pokémon's Speed stat in harsh sunlight."
+      }
+    ],
+    "evolutionchain": {
+      "id": 1,
+      "pokemon_v2_pokemonspecies": [
+        {
+          "id": 1,
+          "evolves_from_species_id": null
+        },
+        {
+          "id": 2,
+          "evolves_from_species_id": 1
+        },
+        {
+          "id": 3,
+          "evolves_from_species_id": 2
+        }
+      ]
+    },
+    "evolutionTree": {
+      "data": {
+        "id": 1,
+        "evolves_from_species_id": null
+      },
+      "children": [
+        {
+          "data": {
+            "id": 2,
+            "evolves_from_species_id": 1
+          },
+          "parent": "[Circular]",
+          "children": [
+            {
+              "data": {
+                "id": 3,
+                "evolves_from_species_id": 2
+              },
+              "parent": "[Circular]"
+            }
+          ]
+        }
+      ]
+    },
+    "moves": [
+      {
+        "id": 1921,
+        "move_id": 14,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Swords Dance",
+        "flavorTextDisplay": "A frenetic dance to uplift the fighting spirit.\nThis sharply raises the user’s Attack stat.",
+        "move": {
+          "id": 14,
+          "name": "swords-dance",
+          "accuracy": null,
+          "power": null,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1902,
+        "move_id": 22,
+        "version_group_id": 25,
+        "level": 1,
+        "order": 1,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Vine Whip",
+        "flavorTextDisplay": "The target is struck with slender, whiplike vines to\ninflict damage.",
+        "move": {
+          "id": 22,
+          "name": "vine-whip",
+          "accuracy": 100,
+          "power": 45,
+          "pp": 25,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1903,
+        "move_id": 33,
+        "version_group_id": 25,
+        "level": 1,
+        "order": 2,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Tackle",
+        "flavorTextDisplay": "A physical attack in which the user charges and\nslams into the target with its whole body.",
+        "move": {
+          "id": 33,
+          "name": "tackle",
+          "accuracy": 100,
+          "power": 40,
+          "pp": 35,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1922,
+        "move_id": 34,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Body Slam",
+        "flavorTextDisplay": "The user drops onto the target with its full body\nweight. This may also leave the target with paralysis.",
+        "move": {
+          "id": 34,
+          "name": "body-slam",
+          "accuracy": 100,
+          "power": 85,
+          "pp": 15,
+          "move_effect_chance": 30,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1911,
+        "move_id": 36,
+        "version_group_id": 25,
+        "level": 25,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Take Down",
+        "flavorTextDisplay": "A reckless, full-body charge attack for slamming into\nthe target. This also damages the user a little.",
+        "move": {
+          "id": 36,
+          "name": "take-down",
+          "accuracy": 85,
+          "power": 90,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1923,
+        "move_id": 36,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Take Down",
+        "flavorTextDisplay": "A reckless, full-body charge attack for slamming into\nthe target. This also damages the user a little.",
+        "move": {
+          "id": 36,
+          "name": "take-down",
+          "accuracy": 85,
+          "power": 90,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1924,
+        "move_id": 38,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Double-Edge",
+        "flavorTextDisplay": "A reckless, life-risking tackle in which the user rushes\nthe target. This also damages the user quite a lot.",
+        "move": {
+          "id": 38,
+          "name": "double-edge",
+          "accuracy": 100,
+          "power": 120,
+          "pp": 15,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1904,
+        "move_id": 45,
+        "version_group_id": 25,
+        "level": 1,
+        "order": 3,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Growl",
+        "flavorTextDisplay": "The user growls in an endearing way, making\nopposing Pokémon less wary. This lowers their\nAttack stats.",
+        "move": {
+          "id": 45,
+          "name": "growl",
+          "accuracy": 100,
+          "power": null,
+          "pp": 40,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1925,
+        "move_id": 46,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Roar",
+        "flavorTextDisplay": "The target is scared off, and a different Pokémon is\ndragged out. In the wild, this ends a battle against a\nsingle Pokémon.",
+        "move": {
+          "id": 46,
+          "name": "roar",
+          "accuracy": null,
+          "power": null,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1906,
+        "move_id": 73,
+        "version_group_id": 25,
+        "level": 9,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Leech Seed",
+        "flavorTextDisplay": "A seed is planted on the target. It steals some HP\nfrom the target every turn.",
+        "move": {
+          "id": 73,
+          "name": "leech-seed",
+          "accuracy": 90,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1905,
+        "move_id": 74,
+        "version_group_id": 25,
+        "level": 1,
+        "order": 4,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Growth",
+        "flavorTextDisplay": "The user’s body grows all at once, raising the\nAttack and Sp. Atk stats.",
+        "move": {
+          "id": 74,
+          "name": "growth",
+          "accuracy": null,
+          "power": null,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1907,
+        "move_id": 75,
+        "version_group_id": 25,
+        "level": 12,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Razor Leaf",
+        "flavorTextDisplay": "Sharp-edged leaves are launched to slash at opposing\nPokémon. Critical hits land more easily.",
+        "move": {
+          "id": 75,
+          "name": "razor-leaf",
+          "accuracy": 95,
+          "power": 55,
+          "pp": 25,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1926,
+        "move_id": 76,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Solar Beam",
+        "flavorTextDisplay": "In this two-turn attack, the user gathers light, then\nblasts a bundled beam on the next turn.",
+        "move": {
+          "id": 76,
+          "name": "solar-beam",
+          "accuracy": 100,
+          "power": 120,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1916,
+        "move_id": 76,
+        "version_group_id": 25,
+        "level": 50,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Solar Beam",
+        "flavorTextDisplay": "In this two-turn attack, the user gathers light, then\nblasts a bundled beam on the next turn.",
+        "move": {
+          "id": 76,
+          "name": "solar-beam",
+          "accuracy": 100,
+          "power": 120,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1908,
+        "move_id": 77,
+        "version_group_id": 25,
+        "level": 15,
+        "order": 1,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Poison Powder",
+        "flavorTextDisplay": "The user scatters a cloud of poisonous dust that\npoisons the target.",
+        "move": {
+          "id": 77,
+          "name": "poison-powder",
+          "accuracy": 75,
+          "power": null,
+          "pp": 35,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 4,
+            "name": "poison"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1909,
+        "move_id": 79,
+        "version_group_id": 25,
+        "level": 15,
+        "order": 2,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Sleep Powder",
+        "flavorTextDisplay": "The user scatters a big cloud of sleep-inducing dust\naround the target.",
+        "move": {
+          "id": 79,
+          "name": "sleep-powder",
+          "accuracy": 75,
+          "power": null,
+          "pp": 15,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1917,
+        "move_id": 80,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 2,
+          "name": "egg"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Petal Dance",
+        "flavorTextDisplay": "The user attacks the target by scattering petals for\ntwo to three turns. The user then becomes confused.",
+        "move": {
+          "id": 80,
+          "name": "petal-dance",
+          "accuracy": 100,
+          "power": 120,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1927,
+        "move_id": 92,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Toxic",
+        "flavorTextDisplay": "A move that leaves the target badly poisoned.\nIts poison damage worsens every turn.",
+        "move": {
+          "id": 92,
+          "name": "toxic",
+          "accuracy": 90,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 4,
+            "name": "poison"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1918,
+        "move_id": 92,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 2,
+          "name": "egg"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Toxic",
+        "flavorTextDisplay": "A move that leaves the target badly poisoned.\nIts poison damage worsens every turn.",
+        "move": {
+          "id": 92,
+          "name": "toxic",
+          "accuracy": 90,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 4,
+            "name": "poison"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1928,
+        "move_id": 156,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Rest",
+        "flavorTextDisplay": "The user goes to sleep for two turns. This fully\nrestores the user’s HP and heals any\nstatus conditions.",
+        "move": {
+          "id": 156,
+          "name": "rest",
+          "accuracy": null,
+          "power": null,
+          "pp": 5,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 14,
+            "name": "psychic"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1929,
+        "move_id": 164,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Substitute",
+        "flavorTextDisplay": "The user creates a substitute for itself using some of\nits HP. The substitute serves as the user’s decoy.",
+        "move": {
+          "id": 164,
+          "name": "substitute",
+          "accuracy": null,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1919,
+        "move_id": 174,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 2,
+          "name": "egg"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Curse",
+        "flavorTextDisplay": "A move that works differently for the Ghost type\nthan for all other types.",
+        "move": {
+          "id": 174,
+          "name": "curse",
+          "accuracy": null,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 8,
+            "name": "ghost"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1930,
+        "move_id": 174,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Curse",
+        "flavorTextDisplay": "A move that works differently for the Ghost type\nthan for all other types.",
+        "move": {
+          "id": 174,
+          "name": "curse",
+          "accuracy": null,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 8,
+            "name": "ghost"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1931,
+        "move_id": 182,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Protect",
+        "flavorTextDisplay": "This move enables the user to protect itself from\nall attacks. Its chance of failing rises if it is used\nin succession.",
+        "move": {
+          "id": 182,
+          "name": "protect",
+          "accuracy": null,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1932,
+        "move_id": 188,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Sludge Bomb",
+        "flavorTextDisplay": "Unsanitary sludge is hurled at the target. This may\nalso poison the target.",
+        "move": {
+          "id": 188,
+          "name": "sludge-bomb",
+          "accuracy": 100,
+          "power": 90,
+          "pp": 10,
+          "move_effect_chance": 30,
+          "pokemon_v2_type": {
+            "id": 4,
+            "name": "poison"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1933,
+        "move_id": 202,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Giga Drain",
+        "flavorTextDisplay": "A nutrient-draining attack. The user’s HP is restored\nby half the damage taken by the target.",
+        "move": {
+          "id": 202,
+          "name": "giga-drain",
+          "accuracy": 100,
+          "power": 75,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1934,
+        "move_id": 203,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Endure",
+        "flavorTextDisplay": "The user endures any attack with at least 1 HP.\nIts chance of failing rises if it is used in succession.",
+        "move": {
+          "id": 203,
+          "name": "endure",
+          "accuracy": null,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1935,
+        "move_id": 204,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Charm",
+        "flavorTextDisplay": "The user gazes at the target rather charmingly,\nmaking it less wary. This harshly lowers the target’s\nAttack stat.",
+        "move": {
+          "id": 204,
+          "name": "charm",
+          "accuracy": 100,
+          "power": null,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 18,
+            "name": "fairy"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1936,
+        "move_id": 206,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "False Swipe",
+        "flavorTextDisplay": "A restrained attack that prevents the target from\nfainting. The target is left with at least 1 HP.",
+        "move": {
+          "id": 206,
+          "name": "false-swipe",
+          "accuracy": 100,
+          "power": 40,
+          "pp": 40,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1937,
+        "move_id": 214,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Sleep Talk",
+        "flavorTextDisplay": "While it is asleep, the user randomly uses one of the\nmoves it knows.",
+        "move": {
+          "id": 214,
+          "name": "sleep-talk",
+          "accuracy": null,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1912,
+        "move_id": 230,
+        "version_group_id": 25,
+        "level": 30,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Sweet Scent",
+        "flavorTextDisplay": "A sweet scent that harshly lowers opposing\nPokémon’s evasiveness.",
+        "move": {
+          "id": 230,
+          "name": "sweet-scent",
+          "accuracy": 100,
+          "power": null,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1913,
+        "move_id": 235,
+        "version_group_id": 25,
+        "level": 35,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Synthesis",
+        "flavorTextDisplay": "The user restores its own HP. The amount of HP\nregained varies with the weather.",
+        "move": {
+          "id": 235,
+          "name": "synthesis",
+          "accuracy": null,
+          "power": null,
+          "pp": 5,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1938,
+        "move_id": 241,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Sunny Day",
+        "flavorTextDisplay": "The user intensifies the sun for five turns, powering\nup Fire-type moves. It lowers the power of\nWater-type moves.",
+        "move": {
+          "id": 241,
+          "name": "sunny-day",
+          "accuracy": null,
+          "power": null,
+          "pp": 5,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 10,
+            "name": "fire"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1939,
+        "move_id": 263,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Facade",
+        "flavorTextDisplay": "This attack move doubles its power if the user is\npoisoned, burned, or paralyzed.",
+        "move": {
+          "id": 263,
+          "name": "facade",
+          "accuracy": 100,
+          "power": 70,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1940,
+        "move_id": 270,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Helping Hand",
+        "flavorTextDisplay": "The user assists an ally by boosting the power of\nthat ally’s attack.",
+        "move": {
+          "id": 270,
+          "name": "helping-hand",
+          "accuracy": null,
+          "power": null,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1920,
+        "move_id": 275,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 2,
+          "name": "egg"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Ingrain",
+        "flavorTextDisplay": "The user lays roots that restore its HP on every turn.\nBecause it’s rooted, it can’t switch out.",
+        "move": {
+          "id": 275,
+          "name": "ingrain",
+          "accuracy": null,
+          "power": null,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1941,
+        "move_id": 282,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Knock Off",
+        "flavorTextDisplay": "The user slaps down the target’s held item, and that\nitem can’t be used in that battle. The move does\nmore damage if the target has a held item.",
+        "move": {
+          "id": 282,
+          "name": "knock-off",
+          "accuracy": 100,
+          "power": 65,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 17,
+            "name": "dark"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1942,
+        "move_id": 311,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Weather Ball",
+        "flavorTextDisplay": "This attack move varies in power and type\ndepending on the weather.",
+        "move": {
+          "id": 311,
+          "name": "weather-ball",
+          "accuracy": 100,
+          "power": 50,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1943,
+        "move_id": 331,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Bullet Seed",
+        "flavorTextDisplay": "The user forcefully shoots seeds at the target two\nto five times in a row.",
+        "move": {
+          "id": 331,
+          "name": "bullet-seed",
+          "accuracy": 100,
+          "power": 25,
+          "pp": 30,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1944,
+        "move_id": 345,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Magical Leaf",
+        "flavorTextDisplay": "The user scatters curious leaves that chase the\ntarget. This attack never misses.",
+        "move": {
+          "id": 345,
+          "name": "magical-leaf",
+          "accuracy": null,
+          "power": 60,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1914,
+        "move_id": 388,
+        "version_group_id": 25,
+        "level": 40,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Worry Seed",
+        "flavorTextDisplay": "A seed that causes worry is planted on the target.\nIt prevents sleep by making the target’s\nAbility Insomnia.",
+        "move": {
+          "id": 388,
+          "name": "worry-seed",
+          "accuracy": 100,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1945,
+        "move_id": 402,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Seed Bomb",
+        "flavorTextDisplay": "The user slams a barrage of hard-shelled seeds\ndown on the target from above.",
+        "move": {
+          "id": 402,
+          "name": "seed-bomb",
+          "accuracy": 100,
+          "power": 80,
+          "pp": 15,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1910,
+        "move_id": 402,
+        "version_group_id": 25,
+        "level": 20,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Seed Bomb",
+        "flavorTextDisplay": "The user slams a barrage of hard-shelled seeds\ndown on the target from above.",
+        "move": {
+          "id": 402,
+          "name": "seed-bomb",
+          "accuracy": 100,
+          "power": 80,
+          "pp": 15,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1946,
+        "move_id": 412,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Energy Ball",
+        "flavorTextDisplay": "The user draws power from nature and fires it at the\ntarget. This may also lower the target’s Sp. Def stat.",
+        "move": {
+          "id": 412,
+          "name": "energy-ball",
+          "accuracy": 100,
+          "power": 90,
+          "pp": 10,
+          "move_effect_chance": 10,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1947,
+        "move_id": 437,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Leaf Storm",
+        "flavorTextDisplay": "The user whips up a storm of leaves around the\ntarget. The attack’s recoil harshly lowers the user’s\nSp. Atk stat.",
+        "move": {
+          "id": 437,
+          "name": "leaf-storm",
+          "accuracy": 90,
+          "power": 130,
+          "pp": 5,
+          "move_effect_chance": 100,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1915,
+        "move_id": 438,
+        "version_group_id": 25,
+        "level": 45,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 1,
+          "name": "level-up"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Power Whip",
+        "flavorTextDisplay": "The user violently whirls its vines, tentacles, or the\nlike to harshly lash the target.",
+        "move": {
+          "id": 438,
+          "name": "power-whip",
+          "accuracy": 85,
+          "power": 120,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1948,
+        "move_id": 447,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Grass Knot",
+        "flavorTextDisplay": "The user snares the target with grass and trips it.\nThe heavier the target, the greater the\nmove’s power.",
+        "move": {
+          "id": 447,
+          "name": "grass-knot",
+          "accuracy": 100,
+          "power": null,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1949,
+        "move_id": 474,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Venoshock",
+        "flavorTextDisplay": "The user drenches the target in a special poisonous\nliquid. This move’s power is doubled if the target\nis poisoned.",
+        "move": {
+          "id": 474,
+          "name": "venoshock",
+          "accuracy": 100,
+          "power": 65,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 4,
+            "name": "poison"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1950,
+        "move_id": 491,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Acid Spray",
+        "flavorTextDisplay": "The user spits fluid that works to melt the target.\nThis harshly lowers the target’s Sp. Def stat.",
+        "move": {
+          "id": 491,
+          "name": "acid-spray",
+          "accuracy": 100,
+          "power": 40,
+          "pp": 20,
+          "move_effect_chance": 100,
+          "pokemon_v2_type": {
+            "id": 4,
+            "name": "poison"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1951,
+        "move_id": 520,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Grass Pledge",
+        "flavorTextDisplay": "A column of grass hits the target. When used with\nits water equivalent, its power increases and a vast\nswamp appears.",
+        "move": {
+          "id": 520,
+          "name": "grass-pledge",
+          "accuracy": 100,
+          "power": 80,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1952,
+        "move_id": 580,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Grassy Terrain",
+        "flavorTextDisplay": "The user turns the ground to grass for five turns.\nThis restores the HP of Pokémon on the ground a\nlittle every turn and powers up Grass-type moves.",
+        "move": {
+          "id": 580,
+          "name": "grassy-terrain",
+          "accuracy": null,
+          "power": null,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "status",
+            "id": 1
+          }
+        }
+      },
+      {
+        "id": 1953,
+        "move_id": 803,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Grassy Glide",
+        "flavorTextDisplay": "Gliding on the ground, the user attacks the target.\nThis move always goes first on Grassy Terrain.",
+        "move": {
+          "id": 803,
+          "name": "grassy-glide",
+          "accuracy": 100,
+          "power": 55,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      },
+      {
+        "id": 1954,
+        "move_id": 851,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Tera Blast",
+        "flavorTextDisplay": "pkm.moveFlavorTexts.851",
+        "move": {
+          "id": 851,
+          "name": "tera-blast",
+          "accuracy": 100,
+          "power": 80,
+          "pp": 10,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 1,
+            "name": "normal"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "special",
+            "id": 3
+          }
+        }
+      },
+      {
+        "id": 1955,
+        "move_id": 885,
+        "version_group_id": 25,
+        "level": 0,
+        "order": null,
+        "pokemon_v2_movelearnmethod": {
+          "id": 4,
+          "name": "machine"
+        },
+        "pokemon_v2_versiongroup": {
+          "id": 25,
+          "generation_id": 9
+        },
+        "nameDisplay": "Trailblaze",
+        "flavorTextDisplay": "pkm.moveFlavorTexts.885",
+        "move": {
+          "id": 885,
+          "name": "trailblaze",
+          "accuracy": 100,
+          "power": 50,
+          "pp": 20,
+          "move_effect_chance": null,
+          "pokemon_v2_type": {
+            "id": 12,
+            "name": "grass"
+          },
+          "pokemon_v2_movedamageclass": {
+            "name": "physical",
+            "id": 2
+          }
+        }
+      }
+    ]
+  }
+]
