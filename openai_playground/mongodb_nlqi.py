@@ -1,6 +1,7 @@
 import os
 import argparse
 from openai import AzureOpenAI
+import tiktoken
 
 client = AzureOpenAI(
   azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT"),
@@ -11,9 +12,12 @@ client = AzureOpenAI(
 def create_prompt(question):
   parts = []
   parts.append('Mongodb Pokemon Collection Sample Data:')
+  # parts.append("here's the data linke: https://raw.githubusercontent.com/XuHaoJun/openai-playground/refs/heads/main/data/pokedex.json")
   parts.append('```json')
   with open('data/pokedex.json', 'r', encoding='utf-8') as file:
-    parts.append(file.read())
+    text = file.read()
+    print(text)
+    parts.append(text)
   parts.append('```')
   parts.append('Translate this question into Mongodb Query:')
   parts.append(question)
@@ -32,5 +36,6 @@ if __name__ == '__main__':
   parser.add_argument('question', type=str, help='Question to translate')
   args = parser.parse_args()
   prompt = create_prompt(args.question)
+  print('prompt tokens:', len(tiktoken.encoding_for_model('gpt-4o').encode(prompt)))
   answer = call_llm(prompt)
   print(answer)

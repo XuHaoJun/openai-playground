@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.12"
 openai = "^1.44.1"
 argparse = "^1.4.0"
+tiktoken = "^0.7.0"
 
 
 [build-system]
