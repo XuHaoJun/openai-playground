@@ -9,16 +9,31 @@ client = AzureOpenAI(
   api_version="2024-02-01"
 )
 
+pokedex_json = None
+
+def get_pokedex_json():
+  global pokedex_json
+  if pokedex_json:
+    return pokedex_json
+  with open('data/pokedex.json', 'r', encoding='utf-8') as file:
+    pokedex_json = file.read()
+  return pokedex_json
+
 def create_prompt(question):
   parts = []
   parts.append('Mongodb Pokemon Collection Sample Data:')
   # parts.append("here's the data linke: https://raw.githubusercontent.com/XuHaoJun/openai-playground/refs/heads/main/data/pokedex.json")
   parts.append('```json')
-  with open('data/pokedex.json', 'r', encoding='utf-8') as file:
-    text = file.read()
-    print(text)
-    parts.append(text)
+  parts.append(get_pokedex_json())
   parts.append('```')
+  parts.append('Columns name has suffix "*Display"(ex: nameDisplay) is alerdy i18n translated, following is a question to Mongodb Query example:')
+  parts.append('Question:招式劍舞, Translated: {"moves": {"$elemMatch": {"nameDisplay": "劍舞"}}}.')
+  parts.append('Question:招式噴射火焰, Translated: {"moves": {"$elemMatch": {"nameDisplay": "噴射火焰"}}}.')
+  parts.append('Notes:')
+  parts.append('1. Every Question should suppose it is try find pokemons.')
+  parts.append('2. If you confirm it is not find pokemon question or it is can not one mongodb query found it, then response should include "Can not find pokemon" in start.')
+  parts.append('3. Translated Mongodb Query, do not include db.*.find, just json, and do not include any description or explaintion.')
+  parts.append('4. Should not duplicate key, put conditions to "$and" query')
   parts.append('Translate this question into Mongodb Query:')
   parts.append(question)
   return '\n'.join(parts)
