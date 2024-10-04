@@ -10,6 +10,7 @@ python = "^3.12"
 openai = "^1.44.1"
 argparse = "^1.4.0"
 tiktoken = "^0.7.0"
+python-dotenv = "^1.0.1"
 
 
 [build-system]
